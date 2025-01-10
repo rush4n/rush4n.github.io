@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #777;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.main-header {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.portfolio-name {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.navigation-bar {
+  display: flex;
+  gap: 20px;
+  /*ye nko align-self: flex-start; */
+}
+
+.link:link {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
+}
+
+.link:visited {
+  color: black;
+}
+
+.link:hover {
+  color: #cf9641;
+  /* font-weight: bold; */
+}
+
+.link:active {
+  font-weight: bold;
+}
+
+.greet-world h2 {
+  color: #000;
+}
+
+.greet-world {
+  margin-bottom: 15px;
+}
+
+.about-page {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.linkedin-button {
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: black;
+}
+
+.github-button {
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: #cf9641;
+}
+
+.linkedin-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.github-button:hover {
+  background-color: white;
+  color: #cf9641;
+  border: 2px solid #cf9641;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.my-picture {
+  padding: 10px;
+  border: 10px solid #cf9641;
+}
+
+.information {
+  flex: 1;
+}
